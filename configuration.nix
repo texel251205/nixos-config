@@ -6,6 +6,7 @@
       ./hardware-configuration.nix
       ./modules/boot-loader.nix
       ./modules/garbage-collection.nix
+      ./modules/locale.nix
       ./modules/vm-ssh.nix
     ];
 
@@ -16,20 +17,6 @@
   networking.networkmanager.enable = true;
 
   time.timeZone = "Asia/Tokyo";
-
-  i18n.defaultLocale = "en_US.UTF-8";
-
-  i18n.extraLocaleSettings = {
-    LC_ADDRESS = "ja_JP.UTF-8";
-    LC_IDENTIFICATION = "ja_JP.UTF-8";
-    LC_MEASUREMENT = "ja_JP.UTF-8";
-    LC_MONETARY = "ja_JP.UTF-8";
-    LC_NAME = "ja_JP.UTF-8";
-    LC_NUMERIC = "ja_JP.UTF-8";
-    LC_PAPER = "ja_JP.UTF-8";
-    LC_TELEPHONE = "ja_JP.UTF-8";
-    LC_TIME = "ja_JP.UTF-8";
-  };
 
   services.xserver.enable = true;
 
@@ -63,9 +50,11 @@
   programs.zsh.enable = true;
 
   environment.systemPackages = with pkgs; [
+    curl
     ghostty
     git
     helix
+    wget
   ];
 
   system.stateVersion = "25.11";
