@@ -18,6 +18,7 @@
 
     inputMethod = {
       type = "fcitx5";
+      fcitx5.waylandFrontend = true;
       fcitx5.addons = with pkgs; [
         fcitx5-mozc
         fcitx5-gtk
@@ -38,12 +39,6 @@
     [org.gnome.desktop.input-sources]
     sources=[('xkb', 'us'), ('ibus', 'fcitx')]
   '';
-
-  environment.sessionVariables = {
-    GTK_IM_MODULE = "fcitx";
-    QT_IM_MODULE = "fcitx";
-    XMODIFIERS = "@im=fcitx";
-  };
 
   console.keyMap = "us";
 }
