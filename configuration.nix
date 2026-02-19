@@ -56,12 +56,11 @@
     isNormalUser = true;
     description = "user";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-    #  thunderbird
-    ];
+    shell = pkgs.zsh;
   };
 
   programs.firefox.enable = true;
+  programs.zsh.enable = true;
 
   environment.systemPackages = with pkgs; [
     ghostty
