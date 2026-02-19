@@ -4,6 +4,7 @@
   imports =
     [
       ./hardware-configuration.nix
+      ./modules/vm-ssh.nix
     ];
 
   boot.loader.systemd-boot.enable = true;
