@@ -4,6 +4,7 @@
   imports =
     [
       ./hardware-configuration.nix
+      ./modules/garbage-collection.nix
       ./modules/vm-ssh.nix
     ];
 
@@ -83,7 +84,9 @@
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
+    ghostty
     git
+    helix
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
