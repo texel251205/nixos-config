@@ -5,7 +5,7 @@
     enable = true;
 
     shellAliases = {
-      nix-switch = "sudo nixos-rebuild switch --flake .#nixos";
+      nix-switch = "sudo nixos-rebuild switch --impure --flake .#nixos";
     };
 
     history = {

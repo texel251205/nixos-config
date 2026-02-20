@@ -3,7 +3,7 @@
 {
   imports =
     [
-      ./hardware-configuration.nix
+      /etc/nixos/hardware-configuration.nix
       ./modules/boot-loader.nix
       ./modules/fonts.nix
       ./modules/garbage-collection.nix
