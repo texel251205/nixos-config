@@ -5,6 +5,7 @@
     [
       ./hardware-configuration.nix
       ./modules/boot-loader.nix
+      ./modules/fonts.nix
       ./modules/garbage-collection.nix
       ./modules/locale.nix
       ./modules/vm-ssh.nix
