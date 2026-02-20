@@ -3,6 +3,7 @@
 {
   imports = [
     ./modules/shell.nix
+    ./modules/editor.nix
   ];
   
   home.username = "user";
