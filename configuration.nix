@@ -52,9 +52,7 @@
 
   environment.systemPackages = with pkgs; [
     curl
-    ghostty
     git
-    helix
     wget
   ];
 
