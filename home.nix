@@ -21,6 +21,11 @@
 
   home.packages = with pkgs; [
     bitwarden-desktop
+    brave
     fastfetch
+    firefox
+    google-chrome
+    gimp
+    lact
   ];
 }

@@ -4,6 +4,7 @@
   imports =
     [
       /etc/nixos/hardware-configuration.nix
+      ./modules/allow-unfree.nix
       ./modules/bluetooth.nix
       ./modules/boot-loader.nix
       ./modules/fonts.nix
@@ -51,7 +52,6 @@
     shell = pkgs.zsh;
   };
 
-  programs.firefox.enable = true;
   programs.zsh.enable = true;
 
   environment.systemPackages = with pkgs; [
