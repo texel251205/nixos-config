@@ -2,8 +2,9 @@
 
 {
   imports = [
-    ./modules/shell.nix
+    ./modules/bluetooth-tools.nix
     ./modules/editor.nix
+    ./modules/shell.nix
   ];
   
   home.username = "user";

@@ -4,6 +4,7 @@
   imports =
     [
       /etc/nixos/hardware-configuration.nix
+      ./modules/bluetooth.nix
       ./modules/boot-loader.nix
       ./modules/fonts.nix
       ./modules/garbage-collection.nix
