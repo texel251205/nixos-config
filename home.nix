@@ -28,5 +28,14 @@
     gimp
     lact
     prismlauncher
+    obs-studio
+    obsidian
+    rsync
+    rsyncy
+    shotcut
+    steam
+    super-productivity
+    thunderbird
+    yazi
   ];
 }
