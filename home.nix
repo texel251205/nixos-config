@@ -27,5 +27,6 @@
     google-chrome
     gimp
     lact
+    prismlauncher
   ];
 }
