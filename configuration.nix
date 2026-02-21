@@ -8,6 +8,7 @@
       ./modules/fonts.nix
       ./modules/garbage-collection.nix
       ./modules/locale.nix
+      ./modules/security.nix
       ./modules/vm-ssh.nix
     ];
 
@@ -16,6 +17,8 @@
   networking.hostName = "nixos";
 
   networking.networkmanager.enable = true;
+
+  networking.firewall.enable = true;
 
   time.timeZone = "Asia/Tokyo";
 
