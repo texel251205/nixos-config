@@ -2,19 +2,19 @@
 
 1. ブートローダー
     + **... (Linux 6.19)** または **... (Linux LTS)**
-    ![boot](installer_1.jpeg)
+    ![boot](images/installer_1.jpeg)
 2. ウェルカム
     + **American English**
-    ![welcome](installer_2.jpeg)
+    ![welcome](images/installer_2.jpeg)
 3. ロケーション
     + Region: **Asia**
     + Zone: **Tokyo**
-    ![location](installer_3.jpeg)
+    ![location](images/installer_3.jpeg)
 4. キーボード
     + **English (US)**
     + **Default**
     使用しているキーボードを選択する。
-    ![keyboard](installer_4.jpeg)
+    ![keyboard](images/installer_4.jpeg)
 5. ユーザー
     ご自由に。
     ![users](images/installer_5.jpeg)
