@@ -5,6 +5,7 @@
     ./modules/bluetooth-tools.nix
     ./modules/editor.nix
     ./modules/shell.nix
+    ./modules/web-browser.nix
   ];
   
   home.username = "user";
@@ -23,7 +24,6 @@
     bitwarden-desktop
     brave
     fastfetch
-    firefox
     google-chrome
     gimp
     lact
