@@ -27,6 +27,8 @@
     google-chrome
     gimp
     lact
+    manix
+    nix-inspect
     prismlauncher
     obs-studio
     obsidian
